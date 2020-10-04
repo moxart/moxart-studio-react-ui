@@ -1,0 +1,27 @@
+div.contact span {
+    display: inline-block;
+    font-size: .75rem;
+    letter-spacing: .9em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+div.contact h3 {
+    font-size: 2rem;
+    letter-spacing: .25rem;
+}
+div.contact h3 a {
+    color: #d4b08e;
+}
+div.contact h3 a:hover, div.__contact h3 a:focus {
+    color: #ddd;
+}
+div.contact h3.__email {
+    font-weight: 600;
+}
+div.contact h3.__tell a {
+    color: #d4b08e;
+}
+div.contact h3.__tell a:hover, div.__contact h3.__tell a:focus {
+    color: #ddd;
+}

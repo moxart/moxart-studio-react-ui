@@ -1,0 +1,89 @@
+/* = ================================================================================================================ */
+/* = Home Intro ===================================================================================================== */
+/* = ================================================================================================================ */
+
+div.intro {
+    background: url("/images/moxart-studio-bg.png") no-repeat !important;
+    background-position-y: 600px !important;
+    background-size: cover;
+}
+
+div.intro span {
+    font-size: 1rem;
+    letter-spacing: .3rem;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+div.intro h1 {
+    font-size: 5rem;
+    letter-spacing: .50rem;
+    text-transform: uppercase;
+    color: #D4B08E;
+    margin-bottom: 0;
+    line-height: 1;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .7);
+}
+
+@media (max-width: 575.98px) {
+    div.intro {
+        background: #D4B08E !important;
+    }
+    div.intro span {
+        font-size: 1rem;
+        letter-spacing: .3rem;
+        margin-bottom: 5px;
+        color: #666;
+    }
+
+    div.intro h1 {
+        font-size: 2.5rem;
+        letter-spacing: .50rem;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 0;
+        line-height: 1;
+        text-shadow: none !important;
+    }
+}
+
+/* = ================================================================================================================ */
+/* = Home Features ================================================================================================== */
+/* = ================================================================================================================ */
+
+div.features {
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+div.features span {
+    display: inline-block;
+    font-size: .75rem;
+    letter-spacing: .9em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+div.features h2 {
+    font-size: 3rem;
+    color: #6d4c40;
+}
+
+div.features h3 {
+    line-height: 1.6;
+    color: #6d4c40;
+}
+
+div.features a.start__project {
+    display: inline-block;
+    color: #b5886e !important;
+    padding: 1rem 2rem;
+    border: 1px solid #b5886e;
+    border-radius: 6px;
+}
+
+div.features a.start__project:hover,
+div.features a.start__project:focus {
+    background-color: #b5886e;
+    color: #fff !important;
+}

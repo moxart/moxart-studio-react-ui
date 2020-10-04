@@ -1,0 +1,4 @@
+div.blog h3 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
