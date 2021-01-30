@@ -13,9 +13,7 @@ class Home extends React.Component {
                     <Row>
                         <Col md="12" className="p-0">
                             <div className="min-vh-100 text-center m-0 d-flex flex-column justify-content-center">
-                                <span>experience</span>
-                                <h1>Moxart<br/>Studio</h1>
-                                <span>FREELANCE</span>
+                                <h1>Patrick<br/>Avakian</h1>
                             </div>
                         </Col>
                     </Row>
@@ -27,7 +25,7 @@ class Home extends React.Component {
                             <div className="min-vh-100 text-center m-0 d-flex flex-column justify-content-center">
                                 <div className="text-center justify-content-center mb-5">
                                     <span>Contact</span>
-                                    <h2 className="mb-3">You have a project<br/> web creation?</h2>
+                                    <h2 className="mb-3">Do You have a web<br/>creation project?</h2>
                                     <h3>Hang Out With Me.</h3>
                                     <Nav.Link
                                         href="/contact"

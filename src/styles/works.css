@@ -1,4 +1,17 @@
+div.works {
+    padding-top: 20vh;
+}
+
+div.works div.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
 div.works h3 {
     text-transform: capitalize;
     letter-spacing: 1px;
+}
+
+div.works .card-link {
+    font-size: 1.5rem;
 }

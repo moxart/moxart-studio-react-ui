@@ -16,7 +16,7 @@ class Navigation extends React.Component {
                         <Nav.Link href="/">Home.</Nav.Link>
                         <Nav.Link href="/about">Info.</Nav.Link>
                         <Nav.Link href="/works">Works.</Nav.Link>
-                        <Nav.Link href="/blog">Blog.</Nav.Link>
+                        {/*<Nav.Link href="/blog">Blog.</Nav.Link>*/}
                         <Nav.Link href="/contact">Say Hello.</Nav.Link>
                     </Nav>
                     <Nav>
